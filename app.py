@@ -21,6 +21,11 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 
+
+print("TensorFlow =", tf.__version__)
+#print("Keras =", keras.__version__)
+print("tf.keras =", tf.keras.__version__)
+
 # ─────────────────────────────────────────────────────────────
 # CONFIGURATION & CONSTANTES
 # ─────────────────────────────────────────────────────────────
